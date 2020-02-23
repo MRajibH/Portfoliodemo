@@ -138,19 +138,56 @@ h1{
 
 
 }
+
+
 .image{
+  width:62%;
+  height:35vh;
+  text-align: center;
+  border:1px solid lightgray;
+  border-radius: 5%;
+  margin: auto;
+  margin-right:5px;
+  margin-top: -100px;
+  margin-bottom: 0;
+  margin-left: 50px;
+
+
+  }
+  p{
+  font-size: 14px;
+  font-family: sans-serif;
+}
+h2{
+  font-size: 20px;
+}
+
+@media(min-width:691px)
+{.image{
   width:20%;
   height: auto;
   text-align: center;
   border:1px solid lightgray;
   border-radius: 5%;
   margin: auto;
-  margin-right:5px;
+  margin-right:20px;
   margin-top: -110px;
   margin-bottom: 0;
   margin-left: 20px;
 
+}
+ p{
+  
+  font-family: montserrat;
+  font-size: 18px;
+
+}
+h2{
+  font-size: 28px;
   }
+}
+
+  
 
  
 body { overflow-x: hidden;
@@ -210,6 +247,5 @@ button
   background-color: white;
  }
  
-
 
 
