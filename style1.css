@@ -51,3 +51,18 @@ section .box p{
 	
 	z-index: 2;
 }
+.content{
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+	grid-gap: 1em;
+}
+.content .inner-content{
+	background-color: #9980FA;
+	padding: 2em;
+	text-align: left;
+}
+.content .inner-content p {
+	
+	text-align: left;
+	
+}
